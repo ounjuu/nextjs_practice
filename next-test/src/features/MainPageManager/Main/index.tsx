@@ -28,14 +28,14 @@ const Main = () => {
       </button>
       <button
         onClick={() => {
-          router.push(`/login`);
+          window.location.href = "https://www.google.com";
         }}
       >
         구글 페이지 이동
       </button>
       <button
         onClick={() => {
-          router.push(`/login`);
+          window.open("https://www.naver.com", "_blank");
         }}
       >
         네이버 페이지 이동
